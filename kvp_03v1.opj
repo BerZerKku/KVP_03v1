@@ -13,16 +13,39 @@
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
     (DOCKED "TRUE")
-    (DOCKING_POSITION "59420"))
+    (DOCKING_POSITION "59420")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "0")
+    (ANNOTATE_Action "1")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}{PACKAGE}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "TRUE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80"))
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
-    (DIODE_TVS_BI
-      (FullPartName "DIODE_TVS_BI.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+    (PORTBOTH-L
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
+    (SWITCH_2
+      (FullPartName "SWITCH_2.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "1"))
     (RES_0.125W
       (FullPartName "RES_0.125W.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (DIODE_TVS_BI
+      (FullPartName "DIODE_TVS_BI.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
       (DeviceIndex "0"))
     (RES_0.25W
@@ -73,16 +96,13 @@
       (Path "Design Resources")
       (Path "Design Resources" "E:\ORCAD_sch\P400\KVP_03v1\kvp_03v1.dsn")
       (Path "Design Resources" "E:\ORCAD_sch\P400\KVP_03v1\kvp_03v1.dsn"
-         "SCHEMATIC1")
+         "TOP LEVEL")
       (Path "Design Resources" "E:\ORCAD_sch\P400\KVP_03v1\kvp_03v1.dsn"
          "A - RS422")
       (Path "Design Resources" "E:\ORCAD_sch\P400\KVP_03v1\kvp_03v1.dsn"
-         "Design Cache")
+         "B - RS485")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "e:\orcad_sch\lib\sample.olb")
-      (Path "Design Resources" "Library" "e:\orcad_sch\lib\ic.olb")
-      (Select "Design Resources" "Library" "e:\orcad_sch\lib\sample.olb"
-         "RES_0.125W"))
+      (Select "Design Resources" "E:\ORCAD_sch\P400\KVP_03v1\kvp_03v1.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -93,18 +113,10 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -23 22 1024 22 483")
-        (Scroll "-25 -11")
+        (Scroll "-25 0")
         (Zoom "75")
         (Occurrence "/"))
       (Path "E:\ORCAD_SCH\P400\KVP_03V1\KVP_03V1.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 44 772 44 487")
-        (Scroll "0 0")
-        (Zoom "75"))
-      (Path "E:\ORCAD_SCH\P400\KVP_03V1\KVP_03V1.DSN")
-      (Schematic "A - RS422")
-      (Page "A - RS422"))))
+      (Schematic "TOP LEVEL")
+      (Page "TOP LEVEL")))
+  (MPSSessionName "Shcheblykin"))
