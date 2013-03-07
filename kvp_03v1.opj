@@ -33,6 +33,18 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (CAP_NP
+      (FullPartName "CAP_NP.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (RES_0.25W
+      (FullPartName "RES_0.25W.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (ACPL-M50L
+      (FullPartName "ACPL-M50L.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
     (PORTBOTH-L
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -48,19 +60,11 @@
       (FullPartName "DIODE_TVS_BI.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
       (DeviceIndex "0"))
-    (RES_0.25W
-      (FullPartName "RES_0.25W.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
-      (DeviceIndex "0"))
     (PORTLEFT-L
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (PORTRIGHT-L
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (CAP_NP
-      (FullPartName "CAP_NP.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
       (DeviceIndex "0"))
     (ADM2582E_RW20
       (FullPartName "ADM2582E_RW20.Normal")
@@ -101,8 +105,10 @@
          "A - RS422")
       (Path "Design Resources" "E:\ORCAD_sch\P400\KVP_03v1\kvp_03v1.dsn"
          "B - RS485")
+      (Path "Design Resources" "E:\ORCAD_sch\P400\KVP_03v1\kvp_03v1.dsn"
+         "C - INPUT")
       (Path "Design Resources" "Library")
-      (Select "Design Resources" "E:\ORCAD_sch\P400\KVP_03v1\kvp_03v1.dsn"))
+      (Path "Design Resources" "Library" "e:\orcad_sch\lib\sample.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -112,11 +118,30 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 22 1024 22 483")
-        (Scroll "-25 0")
+        (Placement "44 0 1 -1 -1 -4 -23 22 1024 22 483")
+        (Scroll "-48 0")
         (Zoom "75")
         (Occurrence "/"))
       (Path "E:\ORCAD_SCH\P400\KVP_03V1\KVP_03V1.DSN")
       (Schematic "TOP LEVEL")
-      (Page "TOP LEVEL")))
+      (Page "TOP LEVEL"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 44 772 44 487")
+        (Scroll "0 0")
+        (Zoom "75")
+        (Occurrence "/B1"))
+      (Path "E:\ORCAD_SCH\P400\KVP_03V1\KVP_03V1.DSN")
+      (Schematic "B - RS485")
+      (Page "B - RS485"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 110 838 110 553")
+        (Scroll "-25 -11")
+        (Zoom "75"))
+      (Path "E:\ORCAD_SCH\P400\KVP_03V1\KVP_03V1.DSN")
+      (Schematic "C - INPUT")
+      (Page "C - INPUT")))
   (MPSSessionName "Shcheblykin"))
