@@ -29,10 +29,108 @@
     (Annotate_type "Default")
     (width_pages "100")
     (width_start "80")
-    (width_End "80"))
-  (Folder "Outputs")
+    (width_End "80")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Report_File "E:\ORCAD_SCH\P400\KVP_03V1\KVP_03V1.DRC")
+    (DRC_Check_Ports "TRUE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "FALSE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Visible_Power_pins "TRUE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "FALSE")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "pcb")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Input Board File"
+       "E:\ORCAD_sch\Pattern\avant_bot_klemm.brd")
+    ("Allegro Netlist Output Board File"
+       "E:\ORCAD_sch\P400\KVP_03v1\pcb\KVP_03v1.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "128")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0"))
+  (Folder "Outputs"
+    (File ".\kvp_03v1.drc"
+      (Type "Report"))
+    (File ".\pcb\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\pcb\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\pcb\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (Sort User)
+    (File "KVP_03V1.PRP"
+      (Type "Report")
+      (DisplayName "KVP_03V1.PRP")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (DIODE_TVS_BI
+      (FullPartName "DIODE_TVS_BI.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (74LVC1G14
+      (FullPartName "74LVC1G14.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\IC.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (DIODE_ZENNER_1
+      (FullPartName "DIODE_ZENNER_1.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (RES_0.5W
+      (FullPartName "RES_0.5W.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (SWITCH_2
+      (FullPartName "SWITCH_2.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "1"))
+    (RES_5W
+      (FullPartName "RES_5W.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
     (CAP_NP
       (FullPartName "CAP_NP.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
@@ -48,20 +146,9 @@
     (PORTBOTH-L
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    (SWITCH_2
-      (FullPartName "SWITCH_2.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
-      (DeviceIndex "1"))
     (RES_0.125W
       (FullPartName "RES_0.125W.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
-      (DeviceIndex "0"))
-    (DIODE_TVS_BI
-      (FullPartName "DIODE_TVS_BI.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
-      (DeviceIndex "0"))
-    (PORTLEFT-L
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (PORTRIGHT-L
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
@@ -83,10 +170,6 @@
       (FullPartName "CON_32X2-1.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
       (DeviceIndex "0"))
-    (DIODE
-      (FullPartName "DIODE.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
-      (DeviceIndex "0"))
     (RELAY_FX2
       (FullPartName "RELAY_FX2-3.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
@@ -98,17 +181,16 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "E:\ORCAD_sch\P400\KVP_03v1\kvp_03v1.dsn")
-      (Path "Design Resources" "E:\ORCAD_sch\P400\KVP_03v1\kvp_03v1.dsn"
-         "TOP LEVEL")
-      (Path "Design Resources" "E:\ORCAD_sch\P400\KVP_03v1\kvp_03v1.dsn"
+      (Path "Design Resources" "e:\orcad_sch\p400\kvp_03v1\kvp_03v1.dsn")
+      (Path "Design Resources" "e:\orcad_sch\p400\kvp_03v1\kvp_03v1.dsn"
          "A - RS422")
-      (Path "Design Resources" "E:\ORCAD_sch\P400\KVP_03v1\kvp_03v1.dsn"
+      (Path "Design Resources" "e:\orcad_sch\p400\kvp_03v1\kvp_03v1.dsn"
          "B - RS485")
-      (Path "Design Resources" "E:\ORCAD_sch\P400\KVP_03v1\kvp_03v1.dsn"
-         "C - INPUT")
+      (Path "Design Resources" "e:\orcad_sch\p400\kvp_03v1\kvp_03v1.dsn"
+         "D - INPUT")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "e:\orcad_sch\lib\sample.olb"))
+      (Path "Outputs")
+      (Select "Design Resources" "e:\orcad_sch\p400\kvp_03v1\kvp_03v1.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -119,8 +201,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -23 22 1024 22 483")
-        (Scroll "-48 0")
-        (Zoom "75")
+        (Scroll "-36 0")
+        (Zoom "77")
         (Occurrence "/"))
       (Path "E:\ORCAD_SCH\P400\KVP_03V1\KVP_03V1.DSN")
       (Schematic "TOP LEVEL")
@@ -128,9 +210,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 44 772 44 487")
-        (Scroll "0 0")
-        (Zoom "75")
+        (Placement "44 2 3 -1 -1 -4 -23 88 838 88 541")
+        (Scroll "193 334")
+        (Zoom "154")
         (Occurrence "/B1"))
       (Path "E:\ORCAD_SCH\P400\KVP_03V1\KVP_03V1.DSN")
       (Schematic "B - RS485")
@@ -138,10 +220,22 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 110 838 110 553")
-        (Scroll "-25 -11")
-        (Zoom "75"))
+        (Placement "44 0 1 -1 -1 -4 -23 132 926 132 460")
+        (Scroll "873 256")
+        (Zoom "154")
+        (Occurrence "/A1"))
       (Path "E:\ORCAD_SCH\P400\KVP_03V1\KVP_03V1.DSN")
-      (Schematic "C - INPUT")
-      (Page "C - INPUT")))
-  (MPSSessionName "Shcheblykin"))
+      (Schematic "A - RS422")
+      (Page "A - RS422"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 220 948 220 678")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/D3"))
+      (Path "E:\ORCAD_SCH\P400\KVP_03V1\KVP_03V1.DSN")
+      (Schematic "D - INPUT")
+      (Page "D - INPUT")))
+  (MPSSessionName "Shcheblykin")
+  (ISPCBBASICLICENSE "false"))
