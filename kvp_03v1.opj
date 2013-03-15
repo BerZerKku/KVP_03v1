@@ -100,6 +100,14 @@
       (DisplayName "KVP_03V1.PRP")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (MOUNTING_HOLE_PLATED
+      (FullPartName "MOUNTING_HOLE_PLATED.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (CON_2
+      (FullPartName "CON_2.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
     (CAP_NP
       (FullPartName "CAP_NP.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
@@ -207,8 +215,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -23 22 1024 22 483")
-        (Scroll "251 119")
-        (Zoom "154")
+        (Scroll "-13 -3")
+        (Zoom "77")
         (Occurrence "/"))
       (Path "E:\ORCAD_SCH\P400\KVP_03V1\KVP_03V1.DSN")
       (Schematic "TOP LEVEL")
