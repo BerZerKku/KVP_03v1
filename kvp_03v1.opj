@@ -214,8 +214,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 22 1024 22 483")
-        (Scroll "-13 -3")
+        (Placement "44 0 1 -1 -1 -4 -23 22 1024 22 483")
+        (Scroll "-36 0")
         (Zoom "77")
         (Occurrence "/"))
       (Path "E:\ORCAD_SCH\P400\KVP_03V1\KVP_03V1.DSN")
@@ -230,6 +230,26 @@
         (Occurrence "/A1"))
       (Path "E:\ORCAD_SCH\P400\KVP_03V1\KVP_03V1.DSN")
       (Schematic "A - RS422")
-      (Page "A - RS422")))
+      (Page "A - RS422"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 132 889 132 575")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/B1"))
+      (Path "E:\ORCAD_SCH\P400\KVP_03V1\KVP_03V1.DSN")
+      (Schematic "B - RS485")
+      (Page "B - RS485"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 154 911 154 597")
+        (Scroll "187 0")
+        (Zoom "100")
+        (Occurrence "/D1"))
+      (Path "E:\ORCAD_SCH\P400\KVP_03V1\KVP_03V1.DSN")
+      (Schematic "D - INPUT")
+      (Page "D - INPUT")))
   (MPSSessionName "Shcheblykin")
   (ISPCBBASICLICENSE "false"))
