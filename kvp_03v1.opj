@@ -6,6 +6,8 @@
       (File "e:\orcad_sch\lib\sample.olb"
         (Type "Schematic Library"))
       (File "e:\orcad_sch\lib\ic.olb"
+        (Type "Schematic Library"))
+      (File "d:\project\circuit\orcad\lib\symbols_gost.olb"
         (Type "Schematic Library")))
     (NoModify)
     (File ".\kvp_03v1.dsn"
@@ -36,7 +38,7 @@
     (DRC_View_Output "FALSE")
     (DRC_Run_Electrical_Rules "TRUE")
     (DRC_Run_Physical_Rules "TRUE")
-    (DRC_Report_File "E:\ORCAD_SCH\P400\KVP_03V1\KVP_03V1.DRC")
+    (DRC_Report_File "D:\Old_disks\Disk_E\ORCAD_sch\P400\KVP_03v1\KVP_03V1.DRC")
     (DRC_Check_Ports "TRUE")
     (DRC_Check_Off-Page_Connectors "TRUE")
     (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
@@ -81,7 +83,10 @@
     ("Allegro Netlist Combine Property String" "PCB Footprint")
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
     ("Allegro Netlist User Defined Property" "FALSE")
-    (Netlist_TAB "0"))
+    (Netlist_TAB "0")
+    (DRC_Preserved_Waived "FALSE")
+    (DRC_Run_Electrical_Custom_DRC "FALSE")
+    (DRC_Run_Physical_Custom_DRC "FALSE"))
   (Folder "Outputs"
     (File ".\kvp_03v1.drc"
       (Type "Report"))
@@ -95,11 +100,48 @@
       (Type "Report")
       (DisplayName "pstchip.dat"))
     (Sort User)
-    (File "KVP_03V1.PRP"
+    (File ".\kvp_03v1.prp"
       (Type "Report")
       (DisplayName "KVP_03V1.PRP")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (PORTNO-R
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-L
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (TITLE_3
+      (FullPartName "TITLE_3.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SYMBOLS_GOST.OLB")
+      (DeviceIndex "0"))
+    (TITLE_2
+      (FullPartName "TITLE_2.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SYMBOLS_GOST.OLB")
+      (DeviceIndex "0"))
+    (TITLE_5
+      (FullPartName "TITLE_5.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SYMBOLS_GOST.OLB")
+      (DeviceIndex "0"))
+    (TITLE_4
+      (FullPartName "TITLE_4.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SYMBOLS_GOST.OLB")
+      (DeviceIndex "0"))
+    (TITLE_1
+      (FullPartName "TITLE_1.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SYMBOLS_GOST.OLB")
+      (DeviceIndex "0"))
+    (RES_0.125W
+      (FullPartName "RES_0.125W.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (RES_0.25W
+      (FullPartName "RES_0.25W.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
     (MOUNTING_HOLE_PLATED
       (FullPartName "MOUNTING_HOLE_PLATED.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
@@ -110,10 +152,6 @@
       (DeviceIndex "0"))
     (CAP_NP
       (FullPartName "CAP_NP.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
-      (DeviceIndex "0"))
-    (RES_0.25W
-      (FullPartName "RES_0.25W.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
       (DeviceIndex "0"))
     (ULN2803A
@@ -131,9 +169,6 @@
     (DIODE
       (FullPartName "DIODE.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
-      (DeviceIndex "0"))
-    (PORTLEFT-L
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (DIODE_ZENNER_1
       (FullPartName "DIODE_ZENNER_1.Normal")
@@ -158,98 +193,65 @@
     (PORTBOTH-L
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    (RES_0.125W
-      (FullPartName "RES_0.125W.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
-      (DeviceIndex "0"))
-    (PORTRIGHT-L
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
     (ADM2582E_RW20
       (FullPartName "ADM2582E_RW20.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\IC.OLB")
       (DeviceIndex "0"))
     (VCC_ARROW
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (GND_SIGNAL
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (GND
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (CON_32X2
-      (FullPartName "CON_32X2-1.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
-      (DeviceIndex "0"))
-    (RELAY_FX2
-      (FullPartName "RELAY_FX2-3.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
-      (DeviceIndex "2"))
-    (CON_16
-      (FullPartName "CON_16.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "e:\orcad_sch\p400\kvp_03v1\kvp_03v1.dsn")
-      (Path "Design Resources" "e:\orcad_sch\p400\kvp_03v1\kvp_03v1.dsn"
-         "TOP LEVEL")
-      (Path "Design Resources" "e:\orcad_sch\p400\kvp_03v1\kvp_03v1.dsn"
-         "A - RS422")
-      (Path "Design Resources" "e:\orcad_sch\p400\kvp_03v1\kvp_03v1.dsn"
-         "B - RS485")
-      (Path "Design Resources" "e:\orcad_sch\p400\kvp_03v1\kvp_03v1.dsn"
-         "D - INPUT")
-      (Path "Design Resources" "Library")
+      (Path "Design Resources"
+         "d:\old_disks\disk_e\orcad_sch\p400\kvp_03v1\kvp_03v1.dsn")
+      (Path "Design Resources"
+         "d:\old_disks\disk_e\orcad_sch\p400\kvp_03v1\kvp_03v1.dsn" "TOP LEVEL")
+      (Path "Design Resources"
+         "d:\old_disks\disk_e\orcad_sch\p400\kvp_03v1\kvp_03v1.dsn" "A - RS422")
+      (Path "Design Resources"
+         "d:\old_disks\disk_e\orcad_sch\p400\kvp_03v1\kvp_03v1.dsn" "B - RS485")
+      (Path "Design Resources"
+         "d:\old_disks\disk_e\orcad_sch\p400\kvp_03v1\kvp_03v1.dsn"
+         "Design Cache")
       (Path "Outputs")
-      (Select "Design Resources" "e:\orcad_sch\p400\kvp_03v1\kvp_03v1.dsn"))
+      (Select "Design Resources"
+         "d:\old_disks\disk_e\orcad_sch\p400\kvp_03v1\kvp_03v1.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 861"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 321 0 903"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 22 1024 22 483")
-        (Scroll "-36 0")
-        (Zoom "77")
+        (Placement "44 2 3 -1 -1 -4 -23 198 1302 198 683")
+        (Scroll "-335 0")
+        (Zoom "67")
         (Occurrence "/"))
-      (Path "E:\ORCAD_SCH\P400\KVP_03V1\KVP_03V1.DSN")
+      (Path "D:\OLD_DISKS\DISK_E\ORCAD_SCH\P400\KVP_03V1\KVP_03V1.DSN")
       (Schematic "TOP LEVEL")
-      (Page "TOP LEVEL"))
+      (Page "MAIN"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 132 926 132 460")
-        (Scroll "0 460")
-        (Zoom "154")
-        (Occurrence "/A1"))
-      (Path "E:\ORCAD_SCH\P400\KVP_03V1\KVP_03V1.DSN")
-      (Schematic "A - RS422")
-      (Page "A - RS422"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 132 889 132 575")
-        (Scroll "0 0")
-        (Zoom "100")
-        (Occurrence "/B1"))
-      (Path "E:\ORCAD_SCH\P400\KVP_03V1\KVP_03V1.DSN")
-      (Schematic "B - RS485")
-      (Page "B - RS485"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 154 911 154 597")
-        (Scroll "187 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -4 -23 110 1187 110 475")
+        (Scroll "-280 0")
+        (Zoom "58")
         (Occurrence "/D1"))
-      (Path "E:\ORCAD_SCH\P400\KVP_03V1\KVP_03V1.DSN")
-      (Schematic "D - INPUT")
-      (Page "D - INPUT")))
+      (Path "D:\OLD_DISKS\DISK_E\ORCAD_SCH\P400\KVP_03V1\KVP_03V1.DSN")
+      (Schematic "D - IO")
+      (Page "D - IO"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 88 1121 88 593")
+        (Scroll "-82 210")
+        (Zoom "100")
+        (Occurrence "/A1"))
+      (Path "D:\OLD_DISKS\DISK_E\ORCAD_SCH\P400\KVP_03V1\KVP_03V1.DSN")
+      (Schematic "A - RS422")
+      (Page "A - RS422")))
   (MPSSessionName "Shcheblykin")
   (ISPCBBASICLICENSE "false"))
