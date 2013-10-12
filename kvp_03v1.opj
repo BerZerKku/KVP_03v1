@@ -205,20 +205,23 @@
       (Path "Design Resources")
       (Path "Design Resources"
          "d:\old_disks\disk_e\orcad_sch\p400\kvp_03v1\kvp_03v1.dsn")
+      (Path "Design Resources"
+         "d:\old_disks\disk_e\orcad_sch\p400\kvp_03v1\kvp_03v1.dsn" "TOP LEVEL")
       (Path "Outputs")
       (Select "Design Resources"
-         "d:\old_disks\disk_e\orcad_sch\p400\kvp_03v1\kvp_03v1.dsn"))
+         "d:\old_disks\disk_e\orcad_sch\p400\kvp_03v1\kvp_03v1.dsn" "TOP LEVEL"
+         "MAIN"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 321 0 903"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 903"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 198 1302 198 683")
-        (Scroll "-256 73")
+        (Placement "44 0 1 -1 -1 -4 -23 -41 1063 171 656")
+        (Scroll "-256 0")
         (Zoom "67")
         (Occurrence "/"))
       (Path "D:\OLD_DISKS\DISK_E\ORCAD_SCH\P400\KVP_03V1\KVP_03V1.DSN")
@@ -228,7 +231,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -23 110 1187 110 475")
-        (Scroll "-163 151")
+        (Scroll "-163 0")
         (Zoom "86")
         (Occurrence "/D1"))
       (Path "D:\OLD_DISKS\DISK_E\ORCAD_SCH\P400\KVP_03V1\KVP_03V1.DSN")
@@ -237,22 +240,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 88 1121 88 593")
-        (Scroll "-178 0")
-        (Zoom "77")
+        (Placement "44 2 3 -1 -1 -4 -23 88 1121 88 593")
+        (Scroll "-288 -9")
+        (Zoom "56")
         (Occurrence "/A1"))
       (Path "D:\OLD_DISKS\DISK_E\ORCAD_SCH\P400\KVP_03V1\KVP_03V1.DSN")
       (Schematic "A - RS422")
-      (Page "A - RS422"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 132 1209 132 497")
-        (Scroll "-200 160")
-        (Zoom "77")
-        (Occurrence "/B1"))
-      (Path "D:\OLD_DISKS\DISK_E\ORCAD_SCH\P400\KVP_03V1\KVP_03V1.DSN")
-      (Schematic "B - RS485")
-      (Page "B - RS485")))
+      (Page "A - RS422")))
   (MPSSessionName "Shcheblykin")
   (ISPCBBASICLICENSE "false"))
