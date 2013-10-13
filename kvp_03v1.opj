@@ -240,7 +240,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -23 154 1262 154 639")
-        (Scroll "-311 8")
+        (Scroll "-311 338")
         (Zoom "112")
         (Occurrence "/D1"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KVP\03V1\KVP_03V1.DSN")
