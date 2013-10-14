@@ -8,6 +8,8 @@
       (File "e:\orcad_sch\lib\ic.olb"
         (Type "Schematic Library"))
       (File "d:\project\circuit\orcad\lib\symbols_gost.olb"
+        (Type "Schematic Library"))
+      (File "d:\project\circuit\orcad\lib\ic.olb"
         (Type "Schematic Library")))
     (NoModify)
     (File ".\kvp_03v1.dsn"
@@ -109,6 +111,10 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (RES_0.125W
+      (FullPartName "RES_0.125W.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
     (RES_0.5W
       (FullPartName "RES_0.5W.Normal")
       (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
@@ -149,10 +155,6 @@
     (TITLE_1
       (FullPartName "TITLE_1.Normal")
       (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SYMBOLS_GOST.OLB")
-      (DeviceIndex "0"))
-    (RES_0.125W
-      (FullPartName "RES_0.125W.Normal")
-      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
       (DeviceIndex "0"))
     (MOUNTING_HOLE_PLATED
       (FullPartName "MOUNTING_HOLE_PLATED.Normal")
@@ -217,6 +219,8 @@
          "B - IO")
       (Path "Design Resources" "d:\project\circuit\orcad\kvp\03v1\kvp_03v1.dsn"
          "D - RS485")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "d:\project\circuit\orcad\lib\ic.olb")
       (Path "Outputs")
       (Select "Design Resources"
          "d:\project\circuit\orcad\kvp\03v1\kvp_03v1.dsn"))
@@ -230,7 +234,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -23 44 1408 44 529")
-        (Scroll "-197 38")
+        (Scroll "-197 415")
         (Zoom "112")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KVP\03V1\KVP_03V1.DSN")
@@ -239,12 +243,32 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 154 1262 154 639")
-        (Scroll "0 293")
-        (Zoom "224")
+        (Placement "44 0 1 -1 -1 -4 -23 0 1364 0 485")
+        (Scroll "-247 0")
+        (Zoom "100")
         (Occurrence "/D1"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KVP\03V1\KVP_03V1.DSN")
       (Schematic "B - IO")
-      (Page "B - IO")))
+      (Page "B - IO"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 110 1474 110 595")
+        (Scroll "0 24")
+        (Zoom "200")
+        (Occurrence "/A1"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 132 1496 132 617")
+        (Scroll "0 16")
+        (Zoom "200")
+        (Occurrence "/A2"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 154 1518 154 639")
+        (Scroll "-247 211")
+        (Zoom "100")
+        (Occurrence "/A3"))
+      (Path "D:\PROJECT\CIRCUIT\ORCAD\KVP\03V1\KVP_03V1.DSN")
+      (Schematic "A - RS422")
+      (Page "A - RS422")))
   (MPSSessionName "Shcheblykin")
   (ISPCBBASICLICENSE "false"))
