@@ -230,7 +230,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -23 44 1408 44 529")
-        (Scroll "-197 44")
+        (Scroll "-197 38")
         (Zoom "112")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KVP\03V1\KVP_03V1.DSN")
@@ -240,8 +240,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -23 154 1262 154 639")
-        (Scroll "-311 338")
-        (Zoom "112")
+        (Scroll "0 293")
+        (Zoom "224")
         (Occurrence "/D1"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KVP\03V1\KVP_03V1.DSN")
       (Schematic "B - IO")
