@@ -20,7 +20,7 @@
     (DOCKING_POSITION "59420")
     (ANNOTATE_Scope "0")
     (ANNOTATE_Mode "0")
-    (ANNOTATE_Action "0")
+    (ANNOTATE_Action "1")
     (Annotate_Page_Order "0")
     (ANNOTATE_Reset_References_to_1 "FALSE")
     (ANNOTATE_No_Page_Number_Change "FALSE")
@@ -232,7 +232,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -23 44 1408 44 529")
-        (Scroll "-197 280")
+        (Scroll "-197 412")
         (Zoom "112")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KVP\03V1\KVP_03V1.DSN")
@@ -242,7 +242,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -23 0 1364 0 485")
-        (Scroll "-247 0")
+        (Scroll "-247 210")
         (Zoom "100")
         (Occurrence "/D1"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KVP\03V1\KVP_03V1.DSN")
@@ -251,13 +251,13 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 110 1474 110 595")
-        (Scroll "-197 11")
-        (Zoom "112")
+        (Placement "44 2 3 -1 -1 -4 -23 110 1474 110 595")
+        (Scroll "320 477")
+        (Zoom "224")
         (Occurrence "/A1"))
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 132 1496 132 617")
-        (Scroll "-361 150")
+        (Placement "44 0 1 -1 -1 -4 -23 132 1496 132 617")
+        (Scroll "-247 70")
         (Zoom "100")
         (Occurrence "/A2"))
       (Frame
