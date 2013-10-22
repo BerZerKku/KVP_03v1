@@ -1,9 +1,9 @@
 G04 ================== begin FILE IDENTIFICATION RECORD ==================*
-G04 Layout Name:  e:/ORCAD_sch/P400/KVP_03v1/pcb/kvp_03v1.brd*
+G04 Layout Name:  D:/Project/Circuit/ORCAD/KVP/03v1/pcb/kvp_03v1.brd*
 G04 Film Name:    BOARD*
 G04 File Format:  Gerber RS274X*
-G04 File Origin:  Cadence Allegro 16.6-S003*
-G04 Origin Date:  Mon Mar 18 10:49:43 2013*
+G04 File Origin:  Cadence Allegro 16.6-S017*
+G04 Origin Date:  Tue Oct 22 15:15:47 2013*
 G04 *
 G04 Layer:  BOARD GEOMETRY/NCROUTE_PATH*
 G04 Layer:  BOARD GEOMETRY/OUTLINE*
@@ -22,9 +22,9 @@ G75*
 %LPD*%
 G75*
 G54D10*
-G01X-57150Y-105410D02*
-Y2223770D01*
-X971550D01*
-Y-105410D01*
-X-57150D01*
+G01X-27600Y-2277500D02*
+Y55000D01*
+X1001100D01*
+Y-2277500D01*
+X-27600D01*
 M02*
