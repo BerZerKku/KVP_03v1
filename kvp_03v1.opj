@@ -100,7 +100,7 @@
       (Type "Report")
       (DisplayName "pstchip.dat"))
     (Sort User)
-    (File ".\kvp_03v1.prp"
+    (File "KVP_03V1.PRP"
       (Type "Report")
       (DisplayName "KVP_03V1.PRP")))
   (Folder "Referenced Projects")
@@ -205,23 +205,44 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\kvp_03v1.dsn")
       (Path "Design Resources" ".\kvp_03v1.dsn" "TOP LEVEL")
+      (Path "Design Resources" ".\kvp_03v1.dsn" "A - RS422")
       (Path "Outputs")
-      (Select "Design Resources" ".\kvp_03v1.dsn" "TOP LEVEL" "MAIN"))
+      (Select "Design Resources" ".\kvp_03v1.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 903"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 880"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 44 1408 44 529")
-        (Scroll "-361 80")
+        (Placement "44 2 3 -1 -1 -4 -29 44 1408 44 529")
+        (Scroll "-393 150")
         (Zoom "100")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KVP\03V1\KVP_03V1.DSN")
       (Schematic "TOP LEVEL")
-      (Page "MAIN")))
+      (Page "MAIN"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -29 216 1625 224 780")
+        (Scroll "54 840")
+        (Zoom "200")
+        (Occurrence "/D1"))
+      (Path "D:\PROJECT\CIRCUIT\ORCAD\KVP\03V1\KVP_03V1.DSN")
+      (Schematic "B - IO")
+      (Page "B - IO"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -29 243 1652 252 808")
+        (Scroll "-419 0")
+        (Zoom "64")
+        (Occurrence "/A3"))
+      (Path "D:\PROJECT\CIRCUIT\ORCAD\KVP\03V1\KVP_03V1.DSN")
+      (Schematic "A - RS422")
+      (Page "A - RS422")))
   (MPSSessionName "Shcheblykin")
   (ISPCBBASICLICENSE "false"))
