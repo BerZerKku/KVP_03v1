@@ -206,19 +206,20 @@
       (Path "Design Resources" ".\kvp_03v1.dsn")
       (Path "Design Resources" ".\kvp_03v1.dsn" "TOP LEVEL")
       (Path "Design Resources" ".\kvp_03v1.dsn" "A - RS422")
-      (Path "Outputs")
-      (Select "Design Resources" ".\kvp_03v1.dsn"))
-    (HierarchyView)
+      (Path "Outputs"))
+    (HierarchyView
+      (Path "TOP LEVEL")
+      (Path "TOP LEVEL" "D1 (B - IO)"))
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 0 250 0 880"))
-      (Tab 0))
+      (Tab 1))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -29 44 1408 44 529")
-        (Scroll "-393 150")
+        (Placement "44 0 1 -1 -1 -4 -29 44 1408 44 529")
+        (Scroll "-245 110")
         (Zoom "100")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KVP\03V1\KVP_03V1.DSN")
@@ -228,8 +229,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 216 1625 224 780")
-        (Scroll "54 840")
-        (Zoom "200")
+        (Scroll "-268 238")
+        (Zoom "100")
         (Occurrence "/D1"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KVP\03V1\KVP_03V1.DSN")
       (Schematic "B - IO")
@@ -237,9 +238,19 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 243 1652 252 808")
-        (Scroll "-419 0")
-        (Zoom "64")
+        (Placement "44 2 3 -1 -1 -4 -29 81 1490 84 640")
+        (Scroll "-393 405")
+        (Zoom "100")
+        (Occurrence "/A1"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -29 108 1517 112 668")
+        (Scroll "-268 180")
+        (Zoom "100")
+        (Occurrence "/A2"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -29 135 1544 140 696")
+        (Scroll "-268 140")
+        (Zoom "100")
         (Occurrence "/A3"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KVP\03V1\KVP_03V1.DSN")
       (Schematic "A - RS422")
