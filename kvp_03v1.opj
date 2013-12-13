@@ -100,7 +100,7 @@
       (Type "Report")
       (DisplayName "pstchip.dat"))
     (Sort User)
-    (File "KVP_03V1.PRP"
+    (File ".\kvp_03v1.prp"
       (Type "Report")
       (DisplayName "KVP_03V1.PRP")))
   (Folder "Referenced Projects")
@@ -206,20 +206,21 @@
       (Path "Design Resources" ".\kvp_03v1.dsn")
       (Path "Design Resources" ".\kvp_03v1.dsn" "TOP LEVEL")
       (Path "Design Resources" ".\kvp_03v1.dsn" "A - RS422")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources" ".\kvp_03v1.dsn"))
     (HierarchyView
       (Path "TOP LEVEL")
       (Path "TOP LEVEL" "D1 (B - IO)"))
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 880"))
-      (Tab 1))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 872"))
+      (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 44 1408 44 529")
-        (Scroll "-245 110")
+        (Scroll "-245 180")
         (Zoom "100")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KVP\03V1\KVP_03V1.DSN")
@@ -228,9 +229,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 216 1625 224 780")
-        (Scroll "-268 238")
-        (Zoom "100")
+        (Placement "44 2 3 -1 -1 -4 -29 216 1625 224 780")
+        (Scroll "231 136")
+        (Zoom "200")
         (Occurrence "/D1"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KVP\03V1\KVP_03V1.DSN")
       (Schematic "B - IO")
@@ -238,18 +239,18 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -29 81 1490 84 640")
-        (Scroll "-393 405")
+        (Placement "44 0 1 -1 -1 -4 -29 81 1490 84 640")
+        (Scroll "-268 200")
         (Zoom "100")
         (Occurrence "/A1"))
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 108 1517 112 668")
-        (Scroll "-268 180")
+        (Scroll "-268 150")
         (Zoom "100")
         (Occurrence "/A2"))
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 135 1544 140 696")
-        (Scroll "-268 140")
+        (Scroll "-268 0")
         (Zoom "100")
         (Occurrence "/A3"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KVP\03V1\KVP_03V1.DSN")
